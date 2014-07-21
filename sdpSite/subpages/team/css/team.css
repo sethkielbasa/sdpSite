@@ -1,0 +1,31 @@
+body{
+background-color:#EEEEEE;
+}
+
+p{
+font-size:18px;
+font-weight:normal;
+}
+
+#infoBox{
+position:fixed;
+top: 10px;
+left: 225px;
+font-size:20px;
+}
+
+#memberPhoto{
+border-color:black;
+border-style:groove;
+border-width:3px;
+}
+
+#interests{
+font-size:24px;
+font-weight:bold;
+}
+
+#parts{
+font-size:24px;
+font-weight:bold;
+}

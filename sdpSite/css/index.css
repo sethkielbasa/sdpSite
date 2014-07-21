@@ -1,0 +1,139 @@
+body{
+#background-color:#5A6C7E;
+background-color:white;
+}
+
+#headingBar{
+background-color:#3F4C58;
+position:fixed;
+top: 10px;
+left: 10px;
+height: 140px;
+}
+
+#navigationBar{
+background-color:#2E3B47;
+position:fixed;
+top: 155px;
+left: 10px;
+height: 40px;
+}
+
+#sideBar{
+background-color:#3F4C58;
+position:fixed;
+width:185px;
+top: 200px;
+right: 10px;
+}
+
+#interior{
+border-color:black;
+border-style:groove;
+border-width:3px;
+background-color:white;
+position:fixed;
+top:200px;
+left:10px;
+}
+
+#copyright{
+color: white;
+position:fixed;
+bottom: 8px;
+}
+
+#navSpace{
+height: 34px;
+float:left;
+}
+
+#quotePartOne,#quotePartTwo{
+position:fixed;
+font-size:18px;
+color:#000000;
+}
+
+.nav-menus{
+background-color:grey;
+height: 34px;
+width: 144px;
+border-color:#3F4C58;
+border-style:ridge;
+border-width:3px;
+float:left;
+color:white;
+line-height:34px;
+}
+
+.option-menus{
+background-color:grey;
+height: 350px;
+width: 144px;
+border-color:#5A6C7E;
+border-style:ridge;
+border-width:3px;
+position:fixed;
+top:195px;
+left:300px;
+color:white;
+line-height:34px;
+}
+
+.gradient{
+background: linear-gradient(to bottom right, #3F4C58, #FFFFFF);
+}
+
+.countdown{
+position:absolute;
+font-size:24px;
+text-align:center;
+}
+
+#countdownHeader{
+top:60px;
+font-size: 28px;
+font-weight: bold;
+text-shadow: 5px 5px 5px #BBBBBB;
+}
+
+#days{
+top:200px;
+}
+
+#hours{
+top:300px;
+}
+
+#minutes{
+top:400px;
+}
+
+#seconds{
+top:500px;
+}
+
+#daysNumber{
+top:240px;
+font-size:34px;
+font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+#hoursNumber{
+top:340px;
+font-size:34px;
+font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+#minutesNumber{
+top:440px;
+font-size:34px;
+font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+#secondsNumber{
+top:540px;
+font-size:34px;
+font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+

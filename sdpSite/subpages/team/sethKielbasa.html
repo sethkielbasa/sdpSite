@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seth Kielbasa</title>
+	<link rel="stylesheet" type="text/css" href="css/team.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<img id="memberPhoto" src="img/sethKielbasaPhoto.jpg" width="200" height="200"></img>
+
+	<div id="infoBox">
+		<div id="name"> Seth Kielbasa </div>
+		<div id="major"> Computer Systems Engineer </div>
+		<div id="hometown"> Westfield, Massachusetts </div>
+	</div>
+
+	<div id="interests"> Interests
+		<p> More to come <p>
+	</div>
+	<br>
+	<div id="parts"> Responsibilities
+		<p> Website creation </p>
+	</div>
+
+	<script>
+	
+		x = $("#infoBox").height();
+		position = (200 - x)/2 + (0.25 * x);
+		document.getElementById("infoBox").style.top = position + "px";
+		
+	</script>
+
+</body>
+</html>

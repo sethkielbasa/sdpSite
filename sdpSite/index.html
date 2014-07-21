@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Home </title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="java/countdownTimer.js"></script>
+	</head>
+	<body>
+		
+		<div id="headingBar" class="gradient">	
+			<div style="float:left;font-size:60px;font-weight:bold;text-shadow: 5px 5px 5px #BBBBBB;"> SDP 15</div>
+			<img src="img/umassSeal.png" height="134" width="134" style="float:right;border-style:solid;border-color:black;border-width:3px" id="umass">
+			<div id="quotePartOne" style="top:110px;right:165px;">"Scientists investigate that which already is; Engineers create that which has never been."</div>
+			<div id="quotePartTwo" style="top:127px;right:170px;"> ~Albert Einstein</div>
+		</div>
+		
+		<div id="navigationBar">			
+			<div id="navSpace"></div>
+			<div align="center" class="nav-menus" id="option1">Home</div>
+			<div align="center" class="nav-menus" id="option2">The Project</div>
+			<div align="center" class="nav-menus" id="option3">Meet the Team</div>
+			<div align="center" class="nav-menus" id="option4">SDP 15</div>
+			<div align="center" class="nav-menus" id="option5">Resources</div>			
+		</div>
+		
+		<iframe id="interior" name="interior" src="subpages/home.html" frameborder="0" ></iframe>	
+		
+		<div id="option1Menu" class="option-menus" style="display:none" align="center">
+			<a href="subpages/project/problem.html" target="interior">The Problem</a><br>
+		</div>		
+		<div id="option2Menu" class="option-menus" style="display:none" align="center">
+			<a href="subpages/project/problem.html" target="interior">The Problem</a><br>
+			<a href="subpages/project/solution.html" target="interior">The Solution</a><br>
+			<a href="subpages/project/design.html" target="interior">Design</a><br>
+			<a href="subpages/project/finalProduct.html" target="interior">Final Product</a>
+		</div>
+		<div id="option3Menu" class="option-menus" style="display:none" align="center">
+			<a href="subpages/team/sethKielbasa.html" target="interior">Seth Kielbasa</a><br>
+			<a href="subpages/team/albionLici.html" target="interior">Albion Lici</a><br>
+			<a href="subpages/team/noahPortnoy.html" target="interior">Noah Portnoy</a><br>
+			<a href="subpages/team/andrewSousa.html" target="interior">Andrew Sousa</a>
+		</div>
+		<div id="option4Menu" class="option-menus" style="display:none" align="center">
+			<a href="subpages/sdp15.html" target="interior">SDP 15</a><br>
+		</div>
+		<div id="option5Menu" class="option-menus" style="display:none" align="center">
+			<a href="subpages/resources/resources.html" target="interior">Resources</a><br>
+		</div>
+		
+		<div id="sideBar" class="gradient">
+			<div class="countdown" id="countdownHeader" > Countdown to <br> Demo Day</div>
+			<div class="countdown" id="days" >Days</div>
+			<div class="countdown" id="daysNumber"></div>
+			<div class="countdown" id="hours" >Hours</div>
+			<div class="countdown" id="hoursNumber"></div>
+			<div class="countdown" id="minutes" >Minutes</div>
+			<div class="countdown" id="minutesNumber"></div>
+			<div class="countdown" id="seconds" >Seconds</div>
+			<div class="countdown" id="secondsNumber"></div>
+		</div>
+		
+		<footer id="copyright">
+			<span id="copyrightS">&copy; Seth Kielbasa, 2014</span>
+		</footer>
+	
+		<script src="java/adjustSize.js"></script>
+		<script src="java/menu.js"></script>
+		
+		<script>
+			$(window).resize(function() {adjustSize();}).load(function(){adjustSize();});
+			startTime();
+		</script>
+	
+	</body>
+</html>
