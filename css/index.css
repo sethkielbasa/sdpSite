@@ -8,37 +8,37 @@ background-color:#3F4C58;
 position:fixed;
 top: 10px;
 left: 10px;
-height: 140px;
+height: 120px;
 }
 
 #navigationBar{
 background-color:#2E3B47;
 position:fixed;
-top: 155px;
+top: 135px;
 left: 10px;
-height: 40px;
+height: 10px;
 }
 
 #sideBar{
-background-color:#3F4C58;
 position:fixed;
-width:185px;
-top: 200px;
-right: 10px;
+width:150px;
+top: 150px;
+left: 10px;
 }
 
 #interior{
-border-color:black;
-border-style:groove;
-border-width:3px;
+#border-color:black;
+#border-style:groove;
+#border-width:3px;
 background-color:white;
 position:fixed;
-top:200px;
-left:10px;
+top:150px;
+left:170px;
+overflow:auto;
 }
 
 #copyright{
-color: white;
+color: black;
 position:fixed;
 bottom: 8px;
 }
@@ -54,30 +54,46 @@ font-size:18px;
 color:#000000;
 }
 
+#rightLine{
+background-color: #999999;
+width:2px;
+height:600px;
+position:fixed;
+top:150px;
+left:165px;
+}
+
+#middleLine{
+background-color: #999999;
+width:150px;
+height:2px;
+position:fixed;
+top:360px;
+left:10px;
+}
+
+
 .nav-menus{
-background-color:grey;
-height: 34px;
-width: 144px;
-border-color:#3F4C58;
-border-style:ridge;
-border-width:3px;
+background-color:white;
+height: 40px;
+width: 150px;
 float:left;
-color:white;
-line-height:34px;
+color:black;
+line-height:40px;
 }
 
 .option-menus{
-background-color:grey;
-height: 350px;
-width: 144px;
-border-color:#5A6C7E;
-border-style:ridge;
-border-width:3px;
+background-color:white;
+#height: 350px;
+width: 150px;
 position:fixed;
+border-color:black;
+border-style:groove;
+border-width:3px;
 top:195px;
-left:300px;
-color:white;
-line-height:34px;
+left:160px;
+color:black;
+line-height:40px;
 }
 
 .gradient{
@@ -90,23 +106,22 @@ font-size:24px;
 text-align:center;
 }
 
+
+
 #countdownHeader{
-top:60px;
-font-size: 28px;
-font-weight: bold;
-text-shadow: 5px 5px 5px #BBBBBB;
+top:220px;
 }
 
 #days{
-top:200px;
+top:260px;
 }
 
 #hours{
-top:300px;
+top:340px;
 }
 
 #minutes{
-top:400px;
+top:420px;
 }
 
 #seconds{
@@ -114,25 +129,25 @@ top:500px;
 }
 
 #daysNumber{
-top:240px;
+top:285px;
 font-size:34px;
 font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
 #hoursNumber{
-top:340px;
+top:365px;
 font-size:34px;
 font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
 #minutesNumber{
-top:440px;
+top:445px;
 font-size:34px;
 font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
 #secondsNumber{
-top:540px;
+top:525px;
 font-size:34px;
 font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }

@@ -11,36 +11,112 @@ $(document).ready(function(){
 	
 });
 
+
+$(document).ready(function(){
+	$("#theProblem").click(function(){
+		$("#interior").attr("src","subpages/project/construction.html");
+	});
+	$("#theProblem").hover(function(){
+		$(this).css("background-color","#DDDDDD");
+			}, function(){
+			$(this).css("background-color","white");
+			});
+	$("#theSolution").click(function(){
+		$("#interior").attr("src","subpages/project/construction.html");
+	});
+	$("#theSolution").hover(function(){
+		$(this).css("background-color","#DDDDDD");
+			}, function(){
+			$(this).css("background-color","white");
+			});
+	$("#design").click(function(){
+		$("#interior").attr("src","subpages/project/construction.html");
+	});
+	$("#design").hover(function(){
+		$(this).css("background-color","#DDDDDD");
+			}, function(){
+			$(this).css("background-color","white");
+			});
+	$("#finalProduct").click(function(){
+		$("#interior").attr("src","subpages/project/construction.html");
+	});
+	$("#finalProduct").hover(function(){
+		$(this).css("background-color","#DDDDDD");
+			}, function(){
+			$(this).css("background-color","white");
+			});
+	$("#sethKielbasa").click(function(){
+		$("#interior").attr("src","subpages/team/sethKielbasa.html");
+	});
+	$("#sethKielbasa").hover(function(){
+		$(this).css("background-color","#DDDDDD");
+			}, function(){
+			$(this).css("background-color","white");
+			});
+	$("#albionLici").click(function(){
+		$("#interior").attr("src","subpages/team/albionLici.html");
+	});
+	$("#albionLici").hover(function(){
+		$(this).css("background-color","#DDDDDD");
+			}, function(){
+			$(this).css("background-color","white");
+			});
+	$("#noahPortnoy").click(function(){
+		$("#interior").attr("src","subpages/team/noahPortnoy.html");
+	});
+	$("#noahPortnoy").hover(function(){
+		$(this).css("background-color","#DDDDDD");
+			}, function(){
+			$(this).css("background-color","white");
+			});
+	$("#andrewSousa").click(function(){
+		$("#interior").attr("src","subpages/team/andrewSousa.html");
+	});
+	$("#andrewSousa").hover(function(){
+		$(this).css("background-color","#DDDDDD");
+			}, function(){
+			$(this).css("background-color","white");
+			});
+	$("#resources").click(function(){
+		$("#interior").attr("src","subpages/resources/construction.html");
+	});
+	$("#resources").hover(function(){
+		$(this).css("background-color","#DDDDDD");
+			}, function(){
+			$(this).css("background-color","white");
+			});			
+});
+
 $(document).ready(function(){
 	$("#option1").click(function(){
 		$("#interior").attr("src","subpages/home.html");
 	});
 	$("#option1").hover(function(){
-		$(this).css("font-weight","bold").css("border-width","6px").css("width","138").css("height","28").css("line-height","28px");
+		$(this).css("background-color","#DDDDDD");
 			}, function(){
-			$(this).css("font-weight","normal").css("border-width","3px").css("width","144").css("height","34").css("line-height","34px");
+			$(this).css("background-color","white");
 			});
 });
 $(document).ready(function(){
 	$("#option4").click(function(){
-		$("#interior").attr("src","subpages/sdp15.html");
+		$("#interior").attr("src","subpages/construction.html");
 	});
 	$("#option4").hover(function(){
-		$(this).css("font-weight","bold").css("border-width","6px").css("width","138").css("height","28").css("line-height","28px");
+		$(this).css("background-color","#DDDDDD");
 			}, function(){
-			$(this).css("font-weight","normal").css("border-width","3px").css("width","144").css("height","34").css("line-height","34px");
+			$(this).css("background-color","white");
 			});
 });
 
 $(document).ready(function(){
   $("#option2").mouseenter(function(){
 	$("#option2Menu").show();
-	$("#option2Menu").css("height", '140px');
+	$("#option2Menu").css("height", '160px');
   });
 	$("#option2").hover(function(){
-		$(this).css("font-weight","bold").css("border-width","6px").css("width","138").css("height","28").css("line-height","28px");
+		$(this).css("background-color","#DDDDDD");
 			}, function(){
-			$(this).css("font-weight","normal").css("border-width","3px").css("width","144").css("height","34").css("line-height","34px");
+			$(this).css("background-color","white");
 			});
 });
 $(document).ready(function(){
@@ -62,12 +138,12 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#option3").mouseenter(function(){
 	$("#option3Menu").show();
-	$("#option3Menu").css("height", '140px');
+	$("#option3Menu").css("height", '160px');
   });
 	$("#option3").hover(function(){
-		$(this).css("font-weight","bold").css("border-width","6px").css("width","138").css("height","28").css("line-height","28px");
+		$(this).css("background-color","#DDDDDD");
 			}, function(){
-			$(this).css("font-weight","normal").css("border-width","3px").css("width","144").css("height","34").css("line-height","34px");
+			$(this).css("background-color","white");
 			});
 });			
 $(document).ready(function(){
@@ -89,12 +165,12 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#option5").mouseenter(function(){
 	$("#option5Menu").show();
-	$("#option5Menu").css("height", '30px');
+	$("#option5Menu").css("height", '40px');
   });
 	$("#option5").hover(function(){
-		$(this).css("font-weight","bold").css("border-width","6px").css("width","138").css("height","28").css("line-height","28px");
+		$(this).css("background-color","#DDDDDD");
 			}, function(){
-			$(this).css("font-weight","normal").css("border-width","3px").css("width","144").css("height","34").css("line-height","34px");
+			$(this).css("background-color","white");
 			});
 });					
 $(document).ready(function(){

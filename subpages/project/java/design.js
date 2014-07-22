@@ -162,8 +162,3 @@ $(document).ready(function(){
 		$("#designThree").fadeOut('fast');
 	});
 });
-
-
-
-
-

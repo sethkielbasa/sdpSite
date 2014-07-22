@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<title>Under Construction</title>
+</head>
+<body>
+
+	<div id="construction">
+		<div id="text" style="position:fixed;font-size:24px;font-weight:bold;"> Coming soon!</div>
+		<img src="img/under-construction.jpg" height="265" width="339"  id="image">
+	</div>
+	
+	<script>
+	$(window).load(function(){
+		var x = $(window).width();
+		var y = $(window).height();		
+		$("#image").css('position','fixed').css('top',((y-265)/2)+'px').css('left',((x-339)/2)+'px');
+		
+		x = $("#text").width();
+		position = ($(window).width() - x)/2;
+		document.getElementById("text").style.left = position + "px";
+		
+		y = ((($(window).height() - 265 ) /2 ) + $("#text").height() - 75);
+		document.getElementById("text").style.top = y + "px";		
+	});
+	$(window).resize(function(){
+		var x = $(window).width();
+		var y = $(window).height();	
+		$("#image").css('position','fixed').css('top',((y-265)/2)+'px').css('left',((x-339)/2)+'px');
+		
+		x = $("#text").width();
+		position = ($(window).width() - x)/2;
+		document.getElementById("text").style.left = position + "px";
+		
+		y = ((($(window).height() - 265 ) /2 ) + $("#text").height() - 75);
+		document.getElementById("text").style.top = y + "px";		
+		});
+	</script>
+</body>
+</html>
