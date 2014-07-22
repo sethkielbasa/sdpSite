@@ -111,7 +111,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#option2").mouseenter(function(){
 	$("#option2Menu").show();
-	$("#option2Menu").css("height", '160px');
+	$("#option2Menu").css("height", '120px');
   });
 	$("#option2").hover(function(){
 		$(this).css("background-color","#DDDDDD");
@@ -138,7 +138,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#option3").mouseenter(function(){
 	$("#option3Menu").show();
-	$("#option3Menu").css("height", '160px');
+	$("#option3Menu").css("height", '120px');
   });
 	$("#option3").hover(function(){
 		$(this).css("background-color","#DDDDDD");
@@ -165,7 +165,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#option5").mouseenter(function(){
 	$("#option5Menu").show();
-	$("#option5Menu").css("height", '40px');
+	$("#option5Menu").css("height", '30px');
   });
 	$("#option5").hover(function(){
 		$(this).css("background-color","#DDDDDD");

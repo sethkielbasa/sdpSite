@@ -68,18 +68,18 @@ background-color: #999999;
 width:150px;
 height:2px;
 position:fixed;
-top:360px;
+top:310px;
 left:10px;
 }
 
 
 .nav-menus{
 background-color:white;
-height: 40px;
+height: 30px;
 width: 150px;
 float:left;
 color:black;
-line-height:40px;
+line-height:30px;
 }
 
 .option-menus{
@@ -93,7 +93,7 @@ border-width:3px;
 top:195px;
 left:160px;
 color:black;
-line-height:40px;
+line-height:30px;
 }
 
 .gradient{
@@ -109,45 +109,45 @@ text-align:center;
 
 
 #countdownHeader{
-top:220px;
+top:170px;
 }
 
 #days{
-top:260px;
+top:200px;
 }
 
 #hours{
-top:340px;
+top:280px;
 }
 
 #minutes{
-top:420px;
+top:360px;
 }
 
 #seconds{
-top:500px;
+top:440px;
 }
 
 #daysNumber{
-top:285px;
+top:225px;
 font-size:34px;
 font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
 #hoursNumber{
-top:365px;
+top:305px;
 font-size:34px;
 font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
 #minutesNumber{
-top:445px;
+top:385px;
 font-size:34px;
 font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
 #secondsNumber{
-top:525px;
+top:465px;
 font-size:34px;
 font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }

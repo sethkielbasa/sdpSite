@@ -16,9 +16,9 @@ function adjustSize(){
 	document.getElementById("navigationBar").style.width = (w -20)+"px";
 	document.getElementById("navSpace").style.width = (((w-20) - (150*5))/2)+"px";
 	
-	document.getElementsByClassName("option-menus")[1].style.top = 190+"px";
-	document.getElementsByClassName("option-menus")[2].style.top = 230+"px";
-	document.getElementsByClassName("option-menus")[4].style.top = 310+"px";
+	document.getElementsByClassName("option-menus")[1].style.top = 180+"px";
+	document.getElementsByClassName("option-menus")[2].style.top = 210+"px";
+	document.getElementsByClassName("option-menus")[4].style.top = 270+"px";
 	
 	
 	
