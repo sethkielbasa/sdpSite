@@ -286,7 +286,4 @@ $(document).ready(function(){
 	$("#displayBox").click(function(){	
 		$("#interior").fadeOut(300);
 	});
-	$("#headingBar").click(function(){
-		$("#interior").fadeOut(300);
-	});
 });
