@@ -1,154 +1,252 @@
 body{
-#background-color:#5A6C7E;
-background-color:white;
+background-color:#eeeeee;
 }
 
 #headingBar{
-background-color:#3F4C58;
 position:fixed;
-top: 10px;
-left: 10px;
-height: 120px;
+top:0px;
+left:0px;
+height:50px;
+width:100%;
+box-shadow: 0px 5px 10px #888888;
+background-color:#00897b;
 }
 
-#navigationBar{
-background-color:#2E3B47;
-position:fixed;
-top: 135px;
-left: 10px;
-height: 10px;
+#title{
+position:absolute;
+top:10px;
+left:15px;
+color:white;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size:30px;
 }
 
-#sideBar{
+#umass{
+position:absolute;
+top:30px;
+right:15px;
+color:white;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size:18px;
+}
+
+#divider1{
+position:absolute;
+top:28px;
+right:78px;
+color:white;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size:20px;
+}
+
+#sdp{
+position:absolute;
+top:30px;
+right:100px;
+color:white;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size:18px;
+}
+
+#divider2{
+position:absolute;
+top:28px;
+right:168px;
+color:white;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size:20px;
+}
+
+#resources{
+position:absolute;
+top:30px;
+right:190px;
+color:white;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size:18px;
+}
+
+#quotePartOne{
+position:absolute;
+top:430px;
+right:42px;
+color:black;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size:14px;
+}
+
+#quotePartTwo{
+position:absolute;
+top:465px;
+right:42px;
+color:black;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size:14px;
+}
+
+#leftOptions, #rightOptions{
 position:fixed;
-width:150px;
-top: 150px;
-left: 10px;
+top:60px;
+width: 126px;
+#background-color:#aaaaaa;
+}
+
+.left-menus{
+position:absolute;
+left:25px;
+width:75px;
+height:50px;
+border-radius:5px;
+background-color:#64ffda;
+line-height:50px;
+box-shadow: 5px 5px 10px #888888;
+opacity:0.6;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+color:black;
+font-size:14px;
+}
+
+.right-menus{
+position:absolute;
+left:25px;
+width:75px;
+height:50px;
+border-radius:5px;
+background-color:#64ffda;
+line-height:50px;
+box-shadow: 5px 5px 10px #888888;
+opacity:0.6;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+color:black;
+font-size:14px;
+}
+
+#displayBox{
+position:fixed;
+top:50px;
+background-color:white;
+width:800px;
 }
 
 #interior{
-#border-color:black;
-#border-style:groove;
-#border-width:3px;
+position:absolute;
+top:40px;
+left:40px;
+display:none;
+box-shadow: 5px 5px 40px #888888;
 background-color:white;
-position:fixed;
-top:150px;
-left:170px;
-overflow:auto;
+opacity:1.0;
 }
 
-#copyright{
-color: black;
-position:fixed;
-bottom: 8px;
+#header1{
+#display:none;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size:34px;
+position:absolute;
+top:50px;
 }
 
-#navSpace{
-height: 34px;
-float:left;
-}
-
-#quotePartOne,#quotePartTwo{
-position:fixed;
-font-size:18px;
-color:#000000;
-}
-
-#rightLine{
-background-color: #999999;
-width:2px;
-height:600px;
-position:fixed;
-top:150px;
-left:165px;
-}
-
-#middleLine{
-background-color: #999999;
-width:150px;
-height:2px;
-position:fixed;
-top:310px;
-left:10px;
-}
-
-
-.nav-menus{
-background-color:white;
-height: 30px;
-width: 150px;
-float:left;
-color:black;
-line-height:30px;
-}
-
-.option-menus{
-background-color:white;
-#height: 350px;
-width: 150px;
-position:fixed;
-border-color:black;
-border-style:groove;
-border-width:3px;
-top:195px;
-left:160px;
-color:black;
-line-height:30px;
-}
-
-.gradient{
-background: linear-gradient(to bottom right, #3F4C58, #FFFFFF);
+#header2{
+#display:none;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+font-size:16px;
+position:absolute;
 }
 
 .countdown{
 position:absolute;
-font-size:24px;
+font-size:14px;
 text-align:center;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
 }
 
-
-
 #countdownHeader{
-top:170px;
+font-size:18px;
+font-weight:lighter;
+top:260px;
+left: 120px;
 }
 
 #days{
-top:200px;
+top:365px;
+left: 160px;
 }
 
 #hours{
-top:280px;
+top:365px;
+left: 307px;
 }
 
 #minutes{
-top:360px;
+top:365px;
+left: 448px;
 }
 
 #seconds{
-top:440px;
+top:365px;
+left: 595px;
 }
 
 #daysNumber{
-top:225px;
+height:100px;
+width:100px;
+border-radius:62px;
+border-width:6px;
+border-style:solid;
+border-color:#b2dfdb;
+background-color:#e0f2f1;
+line-height:100px;
+top:290px;
+left:120px;
+color:#990000;
 font-size:34px;
-font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
 }
 
 #hoursNumber{
-top:305px;
+height:100px;
+width:100px;
+border-radius:62px;
+border-width:6px;
+border-style:solid;
+border-color:#b2dfdb;
+background-color:#e0f2f1;
+line-height:100px;
+top:290px;
+left:269px;
+color:#990000;
 font-size:34px;
-font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
 }
 
 #minutesNumber{
-top:385px;
+height:100px;
+width:100px;
+border-radius:62px;
+border-width:6px;
+border-style:solid;
+border-color:#b2dfdb;
+background-color:#e0f2f1;
+line-height:100px;
+top:290px;
+left:418px;
+color:#990000;
 font-size:34px;
-font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
 }
 
 #secondsNumber{
-top:465px;
+height:100px;
+width:100px;
+border-radius:62px;
+border-width:6px;
+border-style:solid;
+border-color:#b2dfdb;
+background-color:#e0f2f1;
+line-height:100px;
+top:290px;
+left:566px;
+color:#990000;
 font-size:34px;
-font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
 }
-
